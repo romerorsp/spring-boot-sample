@@ -1,7 +1,9 @@
 # spring-boot-sample
 Sample (empty) spring-boot-application
 
-Scaffold Maven project with spring-boot and bower configuration for AngularJS and Bootstrap.
+Scaffold Maven project with spring-boot. Included BOWER configuration for AngularJS and Bootstrap. Just run the following command on the base folder of the application.
+
+    bower install
 
 ## Proposed Exercise:
 Write a set of REST services with two endpoints:
