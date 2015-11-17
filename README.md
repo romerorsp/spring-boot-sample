@@ -16,8 +16,11 @@ Observations:
 * The application *SHOULD NOT* use WEB.XML or any spring XML configuration.
 
 ### Challenge 1:
-Write a set of JUNIT Tests to test the endpoints.
+Use JERSEY instead of Spring Web
 
 ### Challenge 2:
+Write a set of JUNIT Tests to test the endpoints.
+
+### Challenge 3:
 Write an Angular Application to show the current Greeting Message, and a form to change it. Bonus points if using IIFE. 
 Extra-bonus points for using one-way binding when showing the Greeting Message.
