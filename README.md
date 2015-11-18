@@ -1,5 +1,6 @@
-# spring-boot-sample
-Sample (empty) spring-boot-application
+spring-boot-sample
+
+A sample for spring-boot-application
 
 Scaffold Maven project with spring-boot. Included BOWER configuration for AngularJS and Bootstrap. Just run the following command on the base folder of the application.
 
@@ -8,7 +9,7 @@ Scaffold Maven project with spring-boot. Included BOWER configuration for Angula
 ## Proposed Exercise:
 Write a set of REST services with two endpoints:
 
-* GET service to *retrieve* the Greeting Message of the Day
+* GET service to *retrieve* the Greeting Message of the Day 
 * POST service to *change* the current Greeting Message.
 
 Observations:
@@ -18,7 +19,7 @@ Observations:
 * The application *SHOULD NOT* use WEB.XML or any spring XML configuration.
 
 ### Challenge 1:
-Use JERSEY instead of Spring Web
+Use JERSEY instead of Spring Web 
 
 ### Challenge 2:
 Write a set of JUNIT Tests to test the endpoints.
@@ -29,13 +30,15 @@ Extra-bonus points for using one-way binding when showing the Greeting Message.
 
 
 ##Install and Run
-* You can run the following command in order to have the application self-contained and ready to be run as a jar file
-    mvn package
+* You can run the following command in order to have the application self-contained and ready to be run as a jar file.
+     
+      mvn package
 
-* After packaging you can run the jar file in order to launch the server (make sure the 8090 port is not busy before running it)
-    java -jar target/greet-server.jar
+* After packaging you can run the jar file in order to launch the server (make sure the 8090 port is not busy before running it).
 
-* Then you can access the application through the URL: http://hostName:8090/ and play some greetings
-* You can also access the REST services directly through the URL http://hostName:8090/greet
+      java -jar target/greet-server.jar
 
-Enjoy it =)
+* Then you can access the application through the URL: http://hostName:8090/ and play some greetings.
+* You can also access the REST services directly through the URL http://hostName:8090/greet.
+
+    **Enjoy it =)**
