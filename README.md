@@ -1,4 +1,4 @@
-spring-boot-sample
+#spring-boot-sample
 
 A sample for spring-boot-application
 
