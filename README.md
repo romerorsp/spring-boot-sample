@@ -29,8 +29,12 @@ Extra-bonus points for using one-way binding when showing the Greeting Message.
 
 
 ##Install and Run
-* You can run "mvn package" to have the application self-contained and ready to be run as a jar file
-* After packaging you can run "java -jar target/greet-server.jar" in order to launch the server (make sure the 8090 port is not busy before running it)
+* You can run the following command in order to have the application self-contained and ready to be run as a jar file
+    mvn package
+
+* After packaging you can run the jar file in order to launch the server (make sure the 8090 port is not busy before running it)
+    java -jar target/greet-server.jar
+
 * Then you can access the application through the URL: http://hostName:8090/ and play some greetings
 * You can also access the REST services directly through the URL http://hostName:8090/greet
 
