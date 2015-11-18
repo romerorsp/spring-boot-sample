@@ -4,7 +4,7 @@
 	<groupId>br.com.cinq.greet</groupId>
 	<artifactId>greet-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>A Service that Greets</name>
 
 	<parent>

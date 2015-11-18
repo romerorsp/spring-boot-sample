@@ -1,13 +1,13 @@
 package br.com.cinq.greet.config;
 
 import org.glassfish.jersey.server.ResourceConfig;
+import org.glassfish.jersey.servlet.ServletProperties;
 import org.springframework.context.annotation.Configuration;
-
-import br.com.cinq.greet.service.GreetService;
 
 @Configuration
 public class GreetServiceConfig extends ResourceConfig {
 	public GreetServiceConfig() {
-		register(GreetService.class);
+		packages("br.com.cinq.greet");
+		property(ServletProperties.FILTER_FORWARD_ON_404, true);
 	}
 }

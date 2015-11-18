@@ -18,4 +18,8 @@ public class GreetMessage implements Serializable {
 	public void configure(String greet) {
 		this.greet = greet;
 	}
+
+	public String getGreet() {
+		return this.greet;
+	}
 }

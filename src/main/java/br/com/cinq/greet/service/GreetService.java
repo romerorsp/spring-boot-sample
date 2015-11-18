@@ -9,6 +9,7 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
 
 import br.com.cinq.greet.bean.GreetMessage;
@@ -30,6 +31,6 @@ public class GreetService {
 	@Consumes(MediaType.APPLICATION_JSON)
 	public Response change(GreetRequest request) {
 		greet.configure(request.getGreet());
-		return Response.ok().build();
+		return Response.status(HttpStatus.CREATED.value()).build();
 	}
 }
